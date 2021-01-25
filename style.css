@@ -1,3 +1,13 @@
+
+a {
+    text-decoration: none;
+    font-weight: normal;
+    color:black;
+}
+
+ul {
+    list-style: none;
+}
 .date , .middle-header, .login-btn{
   display: none;
 }
@@ -33,3 +43,27 @@
     fill: red;
     width: 236px;
 }
+
+.footer-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.d-flex {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 0.5px;
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    padding: 5px;
+    color: black;
+}
+
+ .top-footer {
+     justify-content: space-between;
+     align-items: center;
+     border-bottom: 1px solid #ccc;
+ }

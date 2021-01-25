@@ -26,6 +26,7 @@ ul {
 .news-cat-li a {
   color: black;
 }
+
 .news-cat-li {
   list-style: none;
   font-size: 18px;
@@ -51,8 +52,8 @@ ul {
   fill: white;
 }
 
-.middle-footer h3{
-    font-size: 20px;
+.middle-footer h3 {
+  font-size: 20px;
 }
 
 .middle-header {
@@ -88,8 +89,8 @@ ul {
 }
 
 footer {
-    position: absolute;
-    bottom: 0;
+  position: absolute;
+  bottom: 0;
 }
 
 .date-stamp {

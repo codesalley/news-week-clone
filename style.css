@@ -1,18 +1,21 @@
-
+body {
+  position: relative;
+  height: 100vh;
+}
 
 a {
-    text-decoration: none;
-    font-weight: normal;
-    color:black;
+  text-decoration: none;
+  font-weight: normal;
+  color: black;
 }
 
 ul {
-    list-style: none;
+  list-style: none;
 }
+
 .date,
 .middle-header,
 .login-btn {
-  
   display: none;
 }
 
@@ -31,9 +34,7 @@ ul {
 
 .trending-news-li {
   color: rgb(61, 58, 58);
-  
 }
-
 
 .search-li {
   list-style: none;
@@ -50,11 +51,20 @@ ul {
   fill: white;
 }
 
-.middle-header  {
-    position: relative;
-    width: 100%;
+.middle-footer h3{
+    font-size: 20px;
 }
 
+.middle-header {
+  position: relative;
+  width: 100%;
+}
+
+.last-footer-ul {
+  font-size: 16px;
+  padding: 0;
+  align-items: flex-start;
+}
 
 .news-cat-ul {
   padding-left: 20px;
@@ -74,16 +84,23 @@ ul {
 
 .login-section {
   gap: 20px;
+  color: rgba(255, 255, 255, 0.808);
 }
 
-.login-section {
-  color: rgba(255, 255, 255, 0.808);
+footer {
+    position: absolute;
+    bottom: 0;
+}
+
+.date-stamp {
+  font-size: 13px;
 }
 
 .footer-svg svg {
   display: block;
   fill: #f72210;
   width: 236px;
+  margin-bottom: 20px;
 }
 
 @media only screen and (min-width: 992px) {
@@ -91,6 +108,7 @@ ul {
     height: 95px;
     padding: 22px;
   }
+
   .header-svg svg {
     width: 100%;
     fill: white;
@@ -107,43 +125,28 @@ ul {
     border-left: 12px solid white;
     border-top: 13px solid #f72210;
   }
-  
-/*     fill: red;
-    width: 236px;
-}
- */
-  
-.footer-section {
-    display: flex;
-    flex-direction: column;
-}
 
-.d-flex {
-    flex-wrap: wrap;
-    justify-content: space-between;
-    gap: 0.5px;
-    margin: 0;
-    padding: 0;
-}
-
-ul li {
+  ul li {
     padding: 5px;
     color: black;
-}
+  }
 
- .top-footer {
-     justify-content: space-between;
-     align-items: center;
-     border-bottom: 1px solid #ccc;
- }
-.date,
-.login-btn {
-  color: white;
-  font-size: 18px;
-}
-.sub-btn {
-  height: 35px;
-  font-size: 15px;
-  font-weight: 700;
-  color: rgb(8, 8, 8);
+  .top-footer {
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+  }
+
+  .date,
+  .login-btn {
+    color: white;
+    font-size: 18px;
+  }
+
+  .sub-btn {
+    height: 35px;
+    font-size: 15px;
+    font-weight: 700;
+    color: rgb(8, 8, 8);
+  }
 }

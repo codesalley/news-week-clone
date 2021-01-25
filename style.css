@@ -1,5 +1,35 @@
-.log-svg {
+.date , .middle-header, .login-btn{
+  display: none;
+}
+
+.header-svg svg {
+  width: 150px;
+  fill: white;
+}
+
+
+.first-header {
+  background-color: red;
+  padding: 0 10px;
+  height: 45px;
+}
+
+.sub-btn,
+.login-btn {
+  height: 30px;
+  font-size: 12px;
+}
+
+.login-section {
+  gap: 20px;
+}
+
+.login-section {
+    color: rgba(255, 255, 255, 0.808);
+}
+
+.footer-svg svg{
+    display: block;
     fill: red;
-    width: 132px;
-    height: 20px;
+    width: 236px;
 }

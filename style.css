@@ -1,6 +1,18 @@
+
+
+a {
+    text-decoration: none;
+    font-weight: normal;
+    color:black;
+}
+
+ul {
+    list-style: none;
+}
 .date,
 .middle-header,
 .login-btn {
+  
   display: none;
 }
 
@@ -9,7 +21,6 @@
 }
 
 .news-cat-li a {
-  text-decoration: none;
   color: black;
 }
 .news-cat-li {
@@ -20,7 +31,7 @@
 
 .trending-news-li {
   color: rgb(61, 58, 58);
-  text-decoration: none;
+  
 }
 
 
@@ -29,7 +40,6 @@
 }
 
 .search-li a {
-  text-decoration: none;
   color: gray;
   text-align: end;
   font-size: 100%;
@@ -98,16 +108,42 @@
     border-top: 13px solid #f72210;
   }
   
+/*     fill: red;
+    width: 236px;
+}
+ */
+  
+.footer-section {
+    display: flex;
+    flex-direction: column;
+}
 
-  .date,
-  .login-btn {
-    color: white;
-    font-size: 18px;
-  }
-  .sub-btn {
-    height: 35px;
-    font-size: 15px;
-    font-weight: 700;
-    color: rgb(8, 8, 8);
-  }
+.d-flex {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 0.5px;
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    padding: 5px;
+    color: black;
+}
+
+ .top-footer {
+     justify-content: space-between;
+     align-items: center;
+     border-bottom: 1px solid #ccc;
+ }
+.date,
+.login-btn {
+  color: white;
+  font-size: 18px;
+}
+.sub-btn {
+  height: 35px;
+  font-size: 15px;
+  font-weight: 700;
+  color: rgb(8, 8, 8);
 }

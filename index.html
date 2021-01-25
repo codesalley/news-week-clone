@@ -6,17 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <title>News week clone</title>
 </head>
 
-<body>
-    <header class="container-xxl p-0 m-0">
+<body class="container-xxl p-0">
+    <header class="container-fluid p-0">
         <nav class="desktop-nav ">
             <div class="first-header d-flex justify-content-between align-items-center">
-                <div class="date d-lg-block">
+                <div class="date d-lg-block align-self-end">
                     Web, Jan 20, 2021
                 </div>
                 <div class="header-svg">
@@ -30,17 +29,17 @@
                         </g>
                     </svg>
                 </div>
-                <div class="login-section d-flex justify-content-center align-items-center ">
-                    <button class="btn login-btn d-lg-block">LOGIN</button>
-                    <i class="fa fa-user" aria-hidden="true"></i>
+                <div class="login-section d-flex justify-content-center align-items-center align-self-center align-items-lg-start align-self-lg-end">
+                    <button class="btn login-btn d-lg-block ">LOGIN</button>
+                    <i class="fa fa-user d-lg-none" aria-hidden="true"></i>
 
-                    <button class="btn btn-warning sub-btn rounded-pill"> SUBSCRIBE</button>
-                    <i class="menu fa fa-bars fa-2x" aria-hidden="true"></i>
+                    <button class="btn btn-warning sub-btn rounded-pill"> SUBSCRIBE <i class="fa fa-chevron-right" aria-hidden="true"></i></button>
+                    <i class="menu fa fa-bars fa-2x d-lg-none" aria-hidden="true"></i>
                 </div>
             </div>
-            <div class="middle-header">
+            <div class="middle-header d-lg-block">
                 <div class="news-category">
-                    <ul class="news-cat-ul">
+                    <ul class="news-cat-ul d-flex gap-2 ">
                         <li class="news-cat-li"><a href="#">U.S</a></li>
                         <li class="news-cat-li"><a href="#">World</a></li>
                         <li class="news-cat-li"><a href="#">Business</a></li>
@@ -52,10 +51,12 @@
                         <li class="news-cat-li"><a href="#">The Debate</a></li>
                         <li class="news-cat-li"><a href="#">Experts</a></li>
                         <li class="news-cat-li"><a href="#">Vantage</a></li>
+                        <li class="search-li"><a href="#">Search <i class="fa fa-search" aria-hidden="true"></i></a></li>
+                        
                     </ul>
                 </div>
                 <div class="trending-news">
-                    <ul class="trending-news-ul">
+                    <ul class="trending-news-ul d-flex gap-2">
                         <li><a href="#" class="trending-news-li">TRENDING</a></li>
                         <li><a href="#" class="trending-news-li">JOE BIDEN</a></li>
                         <li><a href="#" class="trending-news-li">DONALD TRUMP</a></li>
@@ -74,6 +75,7 @@
 
     </main>
 
+
     <footer class='container-fluid footer-section d-flex flex-column'>
              <div class='top-footer d-flex'>
                 <div class='d-flex justify-content-between align-items-center'>
@@ -89,6 +91,7 @@
                         </svg>
                     </div>
                     <div>@copy 2021 NEWSWEEK DIGITAL LLC</div>
+
                 </div>
                 <div class="social-icon">
                     <a href="#"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
@@ -98,6 +101,7 @@
                     <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
                 </div>
             </div>
+
             <div class="middle-footer row col-lg-6">
                     <h3 class='col-2'>Editions</h3>
                     <div class="col-8">
@@ -106,12 +110,13 @@
                             <li><a href="#">日本</a></li>
                             <li><a href="#">Pakistan</a></li>
                             <li><a href="#">Polska</a></li>
-                            <li><a href="#">România</a></li>
+                          <li><a href="#">România</a></li>
 
                         </ul>
                 
                 </div>
             </div>
+
             <div class="last-footer">
                 <ul  class='d-flex'>
                     <li><a href="#">About Us</a></li>

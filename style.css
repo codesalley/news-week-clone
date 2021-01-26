@@ -12,6 +12,15 @@ ul {
   list-style: none;
 }
 
+.travel-card-text {
+  font-size: 16px;
+}
+
+.story-img {
+  width: 150px;
+  height: 120px;
+}
+
 .news-cat-li a {
   color: black;
 }

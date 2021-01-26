@@ -17,6 +17,10 @@ ul {
   height: 63px;
 }
 
+.turn-item img{
+  height: 300px;
+}
+
 .vs {
   font-size: 14px;
   background-color: black;
@@ -24,7 +28,6 @@ ul {
   border-radius: 50%;
   width: 40px;
   height: 40px;
-  margin: auto;
 }
 
 .trending-news-ul li {
@@ -51,8 +54,18 @@ ul {
 }
 
 .story-img {
-  width: 150px;
-  height: 120px;
+  width: 100px;
+  height: 80px;
+}
+
+.content p{
+  font-size: 13px;
+  line-height: 20px;
+}
+
+.content h4{
+  font-size: 15px;
+  line-height: 20px;
 }
 
 .news-cat-li a {

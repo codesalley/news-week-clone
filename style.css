@@ -13,11 +13,7 @@ ul {
   list-style: none;
 }
 
-.date,
-.middle-header,
-.login-btn {
-  display: none;
-}
+
 
 .trending-news-ul li {
   list-style: none;
@@ -56,21 +52,12 @@ ul {
   font-size: 20px;
 }
 
-.middle-header {
-  position: relative;
-  width: 100%;
-}
 
 .last-footer-ul {
   font-size: 16px;
-  padding: 0;
-  align-items: flex-start;
 }
 
-.news-cat-ul {
-  padding-left: 20px;
-}
-
+ 
 .first-header {
   background-color: #f72210;
   padding: 0 10px;
@@ -88,10 +75,6 @@ ul {
   color: rgba(255, 255, 255, 0.808);
 }
 
-footer {
-  position: absolute;
-  bottom: 0;
-}
 
 .date-stamp {
   font-size: 13px;
@@ -132,11 +115,7 @@ footer {
     color: black;
   }
 
-  .top-footer {
-    justify-content: space-between;
-    align-items: center;
-    border-bottom: 1px solid #ccc;
-  }
+
 
   .date,
   .login-btn {
@@ -147,7 +126,6 @@ footer {
   .sub-btn {
     height: 35px;
     font-size: 15px;
-    font-weight: 700;
     color: rgb(8, 8, 8);
   }
 }

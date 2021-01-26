@@ -16,7 +16,7 @@
     <header class="container-fluid p-0">
         <nav class="desktop-nav ">
             <div class="first-header d-flex justify-content-between align-items-center">
-                <div class="date d-lg-block align-self-end">
+                <div class="d-none d-lg-block align-self-end text-white">
                     Web, Jan 20, 2021
                 </div>
                 <div class="header-svg">
@@ -30,57 +30,56 @@
                         </g>
                     </svg>
                 </div>
-                <div
-                    class="login-section d-flex justify-content-center align-items-center align-self-center align-items-lg-start align-self-lg-end">
-                    <button class="btn login-btn d-lg-block ">LOGIN</button>
-                    <i class="fa fa-user d-lg-none" aria-hidden="true"></i>
+                <div class="login-section d-flex justify-content-center align-items-center align-self-center align-items-lg-start align-self-lg-end">
+                    <button class="d-none btn login-btn d-md-block ">LOGIN</button>
+                    <i class="fa fa-user d-md-none" aria-hidden="true"></i>
 
-                    <button class="btn btn-warning sub-btn rounded-pill"> SUBSCRIBE <i class="fa fa-chevron-right"
+                    <button class="btn btn-warning sub-btn rounded-pill font-wight-bold text-nowrap"> SUBSCRIBE <i class="fa fa-chevron-right"
                             aria-hidden="true"></i></button>
                     <i class="menu fa fa-bars fa-2x d-lg-none" aria-hidden="true"></i>
                 </div>
             </div>
-            <div class="middle-header d-lg-block">
-                <div class="news-category">
-                    <ul class="news-cat-ul d-flex">
-                        <li class="news-cat-li"><a href="#">U.S</a></li>
-                        <li class="news-cat-li"><a href="#">World</a></li>
-                        <li class="news-cat-li"><a href="#">Business</a></li>
-                        <li class="news-cat-li"><a href="#">Tech & Science</a></li>
-                        <li class="news-cat-li"><a href="#">Culture</a></li>
-                        <li class="news-cat-li"><a href="#">Newsgeek</a></li>
-                        <li class="news-cat-li"><a href="#">Sports</a></li>
-                        <li class="news-cat-li"><a href="#">Health</a></li>
-                        <li class="news-cat-li"><a href="#">The Debate</a></li>
-                        <li class="news-cat-li"><a href="#">Experts</a></li>
-                        <li class="news-cat-li"><a href="#">Vantage</a></li>
-                        <li class="search-li"><a href="#">Search <i class="fa fa-search" aria-hidden="true"></i></a>
-                        </li>
+             
+            <div class="d-none d-lg-block news-category">
+                <ul class="list-unstyled d-flex flex-wrap">
+                    <li class="news-cat-li"><a href="#">U.S</a></li>
+                    <li class="news-cat-li"><a href="#">World</a></li>
+                    <li class="news-cat-li"><a href="#">Business</a></li>
+                    <li class="news-cat-li"><a href="#">Tech & Science</a></li>
+                    <li class="news-cat-li"><a href="#">Culture</a></li>
+                    <li class="news-cat-li"><a href="#">Newsgeek</a></li>
+                    <li class="news-cat-li"><a href="#">Sports</a></li>
+                    <li class="news-cat-li"><a href="#">Health</a></li>
+                    <li class="news-cat-li"><a href="#">The Debate</a></li>
+                    <li class="news-cat-li"><a href="#">Experts</a></li>
+                    <li class="news-cat-li"><a href="#">Vantage</a></li>
+                    <li class="search-li"><a href="#">Search <i class="fa fa-search" aria-hidden="true"></i></a>
+                    </li>
 
-                    </ul>
-                </div>
-                <div class="trending-news">
-                    <ul class="trending-news-ul d-flex ">
-                        <li><a href="#" class="trending-news-li">TRENDING</a></li>
-                        <li><a href="#" class="trending-news-li">JOE BIDEN</a></li>
-                        <li><a href="#" class="trending-news-li">DONALD TRUMP</a></li>
-                        <li><a href="#" class="trending-news-li">INUGURATIONS</a></li>
-                        <li><a href="#" class="trending-news-li">CORONAVIRUS</a></li>
-                        <li><a href="#" class="trending-news-li">STIMULUS PACKAGE</a></li>
-                        <li><a href="#" class="trending-news-li">VACINE</a></li>
-                        <li><a href="#" class="trending-news-li">CAPITOL RIOTS</a></li>
-                    </ul>
-                </div>
+                </ul>
             </div>
+            <div class="d-none d-lg-block trending-news">
+                <ul class="list-unstyled d-flex flex-wrap">
+                    <li><a href="#" class="trending-news-li">TRENDING</a></li>
+                    <li><a href="#" class="trending-news-li">JOE BIDEN</a></li>
+                    <li><a href="#" class="trending-news-li">DONALD TRUMP</a></li>
+                    <li><a href="#" class="trending-news-li">INUGURATIONS</a></li>
+                    <li><a href="#" class="trending-news-li">CORONAVIRUS</a></li>
+                    <li><a href="#" class="trending-news-li">STIMULUS PACKAGE</a></li>
+                    <li><a href="#" class="trending-news-li">VACINE</a></li>
+                    <li><a href="#" class="trending-news-li">CAPITOL RIOTS</a></li>
+                </ul>
+            </div>
+             
         </nav>
     </header>
 
 
-    <footer class='container-fluid footer-section d-flex  flex-column '>
-        <div class='top-footer d-flex flex-column flex-lg-row'>
+    <footer class='container-fluid footer-section d-flex  flex-column fixed-bottom'>
+        <div class='d-flex flex-column flex-lg-row justify-content-between align-items-center border-bottom'>
 
             <div class="copy-write d-flex align-items-lg-center flex-column flex-lg-row ">
-                <div class="footer-svg" >
+                <div class="footer-svg d-block" >
                     <svg version="1.1" width="396" height="60" xmlns="http://www.w3.org/2000/svg"
                         xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 396 60"
                         style="enable-background:new 0 0 395.6 60;" xml:space="preserve">
@@ -107,7 +106,7 @@
         <div class="middle-footer d-flex flex-wrap">
             <h3 class=''>Editions</h3>
             <div class="">
-                <ul class="d-flex gap-1">
+                <ul class="list-unstyled d-flex gap-1">
                     <li><a href="#">U.S. Edition</a> </li>
                     <li><a href="#">日本</a></li>
                     <li><a href="#">Pakistan</a></li>
@@ -120,7 +119,7 @@
         </div>
 
         <div class="last-footer">
-            <ul class='d-flex last-footer-ul flex-wrap gap-2'>
+            <ul class='list-unstyled d-flex last-footer-ul flex-wrap gap-2 align-items-start p-0'>
                 <li><a href="#">About Us</a></li>
                 <li><a href="#">Corrections</a></li>
                 <li><a href="#">Contact Us</a></li>

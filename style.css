@@ -42,10 +42,6 @@ ul {
   margin: 6px auto;
 }
 
-.trending-news-ul li {
-  list-style: none;
-}
-
 .debate-p {
   font-size: 14px;
 }
@@ -115,30 +111,6 @@ ul {
   height: 35px;
   color: #f72210;
   background-color: #f72210;
-}
-
-.news-cat-li a {
-  color: black;
-}
-
-.news-cat-li {
-  list-style: none;
-  font-size: 18px;
-  font-weight: 700;
-}
-
-.trending-news-li {
-  color: rgb(61, 58, 58);
-}
-
-.search-li {
-  list-style: none;
-}
-
-.search-li a {
-  color: gray;
-  text-align: end;
-  font-size: 100%;
 }
 
 .header-svg svg {
@@ -304,4 +276,8 @@ ul {
     font-size: 15px;
     color: rgb(8, 8, 8);
   }
+}
+
+.opacity-75 {
+  opacity: 0.5;
 }

@@ -4,8 +4,8 @@
 
 > NewsWeek clone using html , css and bootstrap
 
-![screenshot](./ss/1.png)
-![screenshot](./ss/2.png)
+![screenshot](./asserts/images/desktop-view.png)
+![screenshot](./asserts/images/desktop-view.png)
 ![screenshot](./ss/3.png)
 
 ## Built with
@@ -18,12 +18,12 @@
 
 [Live Demo Link]https://juxsalley.github.io/news-week-clone/)
 
-working on this project, you will learn the basic use of css flex-box and css grid and how to use it's adantages to layout elements on a web page and make it responsive
+working on this project, you will learn the basic use of css Bootstrap framework and how to use it's adantages to layout elements on a web page and make it responsive
 
 ### Prerequisites
 
 - Text Editor
-- internet brower
+- internet browser
 
 ### Setup
 
@@ -45,7 +45,9 @@ working on this project, you will learn the basic use of css flex-box and css gr
 
 👤 **Author2**
 
-- GitHub: [@githubhandle](https://github.com/nganifaith)
+- GitHub: [@nganifaith](https://github.com/nganifaith)
+- Twitter: [@Bright_Ngani](https://twitter.com/bright_ngani)
+- LInkedIn: [Kongnyu Faith Ngani](https://www.linkedin.com/in/nganifaith)
 
 ## 📝 License
 

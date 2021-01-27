@@ -202,7 +202,6 @@ ul {
 
 @media only screen and (min-width: 768px) {
   .turn-item img {
-    width: 8rem;
     height: 8rem;
     object-fit: cover;
   }

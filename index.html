@@ -13,9 +13,9 @@
 </head>
 
 <body class="container-xxl p-0">
-    <header class="">
-         
-            <div class="first-header bg-danger p-2 d-flex justify-content-between align-items-center">
+    <header class="container-fluid p-0">
+        <nav class="desktop-nav ">
+            <div class="first-header d-flex justify-content-between align-items-center">
                 <div class="d-none d-lg-block align-self-end text-white">
                     Web, Jan 20, 2021
                 </div>
@@ -707,8 +707,7 @@
                             alt="">
                         <h5>START YOUR DAY WITH OUR TOP 5 ARTICLES</h5>
                     </div>
-                    <input type="text" class="form-control" placeholder="Email Adress" aria-label="Username"
-                        aria-describedby="basic-addon1">
+                    <input type="text" class="form-control" placeholder="Email Adress" aria-label="Username">
                 </div>
             </div>
             <div class="card border-0 py-2">
@@ -755,13 +754,17 @@
         </section>
     </div>
 
-    <div class="mx-1">
-        <div class="the-magazine row">
-            <div class="magazine-heading d-flex justify-content-center gap-2 py-3  border-bottom ">
-                <img class="sub-img "
-                    src="https://web.archive.org/web/20210120213427im_/https://g.newsweek.com/www/images/logo-n1.svg"
-                    alt="">
-                <h3 class="align-self-center fw-bolder">IN THE MAGAZINE</h3>
+    <div class="the-magazine row mx-2">
+        <div class="magazine-heading d-flex justify-content-center gap-2 py-3  border-bottom ">
+            <img class="sub-img "
+                src="https://web.archive.org/web/20210120213427im_/https://g.newsweek.com/www/images/logo-n1.svg"
+                alt="">
+            <h3 class="align-self-center fw-bolder">IN THE MAGAZINE</h3>
+        </div>
+        <div class="magazine-card first-m col-md-3  my-2">
+            <img class="w-100 m-img h-20" src="./assets/magazine/cover-january-29-february-05-2021.jpg" alt="...">
+            <div class="">
+
             </div>
             <div class="magazine-card first-m col-md-3  my-2">
                 <img class="w-100 " src="./assets/magazine/cover-january-29-february-05-2021.jpg" class=" m-img h-20"
@@ -827,13 +830,14 @@
 
             </div>
         </div>
-        <div class="editors-pick row">
-            <div class="magazine-heading d-flex justify-content-center gap-2">
-                <img class="sub-img "
-                    src="https://web.archive.org/web/20210120213427im_/https://g.newsweek.com/www/images/logo-n1.svg"
-                    alt="">
-                <h3>EDITOR'S PICK</h3>
-            </div>
+    </div>
+    <div class="editors-pick row mx-2">
+        <div class="magazine-heading d-flex justify-content-center gap-2">
+            <img class="sub-img "
+                src="https://web.archive.org/web/20210120213427im_/https://g.newsweek.com/www/images/logo-n1.svg"
+                alt="">
+            <h3>EDITOR'S PICK</h3>
+        </div>
 
             <div class="editors-pick-card col-md-3">
                 <div class="card border-0 my-3">
@@ -976,12 +980,13 @@
                 </div>
             </div>
         </div>
-        <div class="news-paper-section">
-            <div class="usa row border-top pt-2">
-                <h4 class="p-2 text-danger fw-bolder">U.S</h4>
-                <div class="col-md-4">
-                    <img class="w-100 py-1" src="./assets/images/vanderburgh-john-keown.jpg" alt="Vanderburgh John Keown">
-                    <h4 class="p-2 fw-bolder">Indiana Homeless Man Chooses to Be Arrested to Avoid Cold Weather</h4>
+    </div>
+    <div class="news-paper-section mx-2 overflow-hidden">
+        <div class="usa row border-top pt-2">
+            <h4 class="p-2 text-danger fw-bolder">U.S</h4>
+            <div class="col-md-4">
+                <img class="w-100 py-1" src="./assets/images/vanderburgh-john-keown.jpg" alt="Vanderburgh John Keown">
+                <h4 class="p-2 fw-bolder">Indiana Homeless Man Chooses to Be Arrested to Avoid Cold Weather</h4>
 
                 </div>
                 <div class="col-md-4">
@@ -1044,26 +1049,28 @@
                     <img class="w-100 py-1" src="./assets/images/sheldonadelson.jpg" alt="Sheldon Adelson">
                     <h4 class="p-2 fw-bolder">The Absolutely American Life of Sheldon Adelson</h4>
 
-                </div>
-                <div class="col-md-4">
-                    <img class="w-100 py-1" src="./assets/images/loews-hotels-josh-hawley-cancel.jpg" alt="Loews Hotels">
-                    <h4 class="p-2 fw-bolder">'Horrified' Loews Hotels Cancel GOP Sen. Josh Hawley Fundraiser</h4>
-                </div>
-                <div class="col-md-4 d-flex flex-column justify-content-around">
-                    <div class="d-flex justify-content-between align-items-start p-1">
-                        <img class="w-25 py-1" src="./assets/images/cover-january-22-20210.jpg" alt="Anthony Levandoweki">
-                        <h5 class="p-2 fw-bolder">Hidden Way Corporations, Billionaire Execs, Fund GOP Voter-Fraud
-                            Claimants/h5>
-                    </div>
+            </div>
+            <div class="col-md-4">
+                <img class="w-100 py-1" src="./assets/images/loews-hotels-josh-hawley-cancel.jpg" alt="Loews Hotels">
+                <h4 class="p-2 fw-bolder">'Horrified' Loews Hotels Cancel GOP Sen. Josh Hawley Fundraiser</h4>
+            </div>
+            <div class="col-md-4 d-flex flex-column justify-content-around">
+                <div class="d-flex justify-content-between align-items-start p-1">
+                    <img class="w-25 py-1" src="./assets/images/cover-january-22-20210.jpg" alt="Anthony Levandoweki">
+                    <h5 class="p-2 fw-bolder">Hidden Way Corporations, Billionaire Execs, Fund GOP Voter-Fraud
+                        Claimants </h5>
                     <div class="d-flex justify-content-between align-items-start border-top border-bottom p-1">
-                        <img class="w-25 py-1" src="./assets/images/per-london-warrwick-011.jpg" alt="Anthony Levandoweki">
+                        <img class="w-25 py-1" src="./assets/images/per-london-warrwick-011.jpg"
+                            alt="Anthony Levandoweki">
                         <h5 class="p-2 fw-bolder">Disney, Other Trusted Brands Funded Misinformation that Fueled Capitol
-                            Riot</h5>
+                            Riot
+                        </h5>
                     </div>
                     <div class="d-flex justify-content-between align-items-start p-1">
                         <img class="w-25 py-1" src="./assets/images/walmart-profits-jump-latest-quarter-during.jpg"
                             alt="Walmart">
-                        <h5 class="p-2 fw-bolder">Walmart, Donor of Millions to GOP, No Longer Funding Election Objectors
+                        <h5 class="p-2 fw-bolder">Walmart, Donor of Millions to GOP, No Longer Funding Election
+                            Objectors
                         </h5>
                     </div>
                 </div>
@@ -1083,16 +1090,19 @@
                 <div class="col-md-4 d-flex flex-column justify-content-around">
                     <div class="d-flex justify-content-between align-items-start p-1">
                         <img class="w-25 py-1" src="./assets/images/joe-biden-covid-19-vaccines.jpg" alt="Joe Biden">
-                        <h5 class="p-2 fw-bolder">Joe Biden's Social Media Following Up by Millions Ahead of Inauguration
+                        <h5 class="p-2 fw-bolder">Joe Biden's Social Media Following Up by Millions Ahead of
+                            Inauguration
                         </h5>
                     </div>
                     <div class="d-flex justify-content-between align-items-start border-top border-bottom p-1">
                         <img class="w-25 py-1" src="./assets/images/cicada-brood-10-stock-getty.jpg" alt="Cicadas">
-                        <h5 class="p-2 fw-bolder">Trillions of Brood 10 Cicadas to Emerge in U.S. After 17 Years Underground
+                        <h5 class="p-2 fw-bolder">Trillions of Brood 10 Cicadas to Emerge in U.S. After 17 Years
+                            Underground
                         </h5>
                     </div>
                     <div class="d-flex justify-content-between align-items-start p-1">
-                        <img class="w-25 py-1" src="./assets/images/parler-app-mobile-phone.jpg" alt="Parler Mobile App">
+                        <img class="w-25 py-1" src="./assets/images/parler-app-mobile-phone.jpg"
+                            alt="Parler Mobile App">
                         <h5 class="p-2 fw-bolder">Parler's Amy Peikoff Quotes MLK In First Post Since Site's Return</h5>
                     </div>
                 </div>
@@ -1110,7 +1120,8 @@
                 </div>
                 <div class="col-md-4 d-flex flex-column justify-content-around">
                     <div class="d-flex justify-content-between align-items-start p-1">
-                        <img class="w-25 py-1" src="./assets/images/cover-january-22-20210.jpg" alt="Anthony Levandoweki">
+                        <img class="w-25 py-1" src="./assets/images/cover-january-22-20210.jpg"
+                            alt="Anthony Levandoweki">
                         <h5 class="p-2 fw-bolder">Here Are Donald Trump's Reasons for Pardoning Lil Wayne</h5>
                     </div>
                     <div class="d-flex justify-content-between align-items-start border-top border-bottom p-1">
@@ -1120,7 +1131,8 @@
                     </div>
                     <div class="d-flex justify-content-between align-items-start p-1">
                         <img class="w-25 py-1" src="./assets/images/rep-john-katko1.jpg" alt="Anthony Levandoweki">
-                        <h5 class="p-2 fw-bolder">Ghislaine Maxwell Hearing Disrupted by YouTube Stream to QAnon Followers
+                        <h5 class="p-2 fw-bolder">Ghislaine Maxwell Hearing Disrupted by YouTube Stream to QAnon
+                            Followers
                         </h5>
                     </div>
                 </div>
@@ -1130,7 +1142,8 @@
                 <div class="col-md-4">
                     <img class="w-100 py-1" src="./assets/images/houston-astros-outfielder-george-springer.jpg"
                         alt="BaseBall Coach">
-                    <h4 class="p-2 fw-bolder">Does Houston Have a Problem? Springer and Harden Gone, Watson May Follow</h4>
+                    <h4 class="p-2 fw-bolder">Does Houston Have a Problem? Springer and Harden Gone, Watson May Follow
+                    </h4>
 
                 </div>
                 <div class="col-md-4">
@@ -1140,13 +1153,17 @@
                 </div>
                 <div class="col-md-4 d-flex flex-column justify-content-around">
                     <div class="d-flex justify-content-between align-items-start p-1">
-                        <img class="w-25 py-1" src="./assets/images/cover-january-22-20210.jpg" alt="Anthony Levandoweki">
-                        <h5 class="p-2 fw-bolder">Sarah Thomas to Become First Female to Officiate a Super Bowl Next Month
+                        <img class="w-25 py-1" src="./assets/images/cover-january-22-20210.jpg"
+                            alt="Anthony Levandoweki">
+                        <h5 class="p-2 fw-bolder">Sarah Thomas to Become First Female to Officiate a Super Bowl Next
+                            Month
                         </h5>
                     </div>
                     <div class="d-flex justify-content-between align-items-start border-top border-bottom p-1">
-                        <img class="w-25 py-1" src="./assets/images/per-london-warrwick-011.jpg" alt="Anthony Levandoweki">
-                        <h5 class="p-2 fw-bolder">Kansas City Making Super Bowl Victory Plans With Two Games Still To Play
+                        <img class="w-25 py-1" src="./assets/images/per-london-warrwick-011.jpg"
+                            alt="Anthony Levandoweki">
+                        <h5 class="p-2 fw-bolder">Kansas City Making Super Bowl Victory Plans With Two Games Still To
+                            Play
                         </h5>
                     </div>
                     <div class="d-flex justify-content-between align-items-start p-1">
@@ -1170,11 +1187,13 @@
                 </div>
                 <div class="col-md-4 d-flex flex-column justify-content-around">
                     <div class="d-flex justify-content-between align-items-start p-1">
-                        <img class="w-25 py-1" src="./assets/images/cover-january-22-20210.jpg" alt="Anthony Levandoweki">
+                        <img class="w-25 py-1" src="./assets/images/cover-january-22-20210.jpg"
+                            alt="Anthony Levandoweki">
                         <h5 class="p-2 fw-bolder">Meet Six Founding Members of the Newsweek Expert Forum</h5>
                     </div>
                     <div class="d-flex justify-content-between align-items-start border-top border-bottom p-1">
-                        <img class="w-25 py-1" src="./assets/images/per-london-warrwick-011.jpg" alt="Anthony Levandoweki">
+                        <img class="w-25 py-1" src="./assets/images/per-london-warrwick-011.jpg"
+                            alt="Anthony Levandoweki">
                         <h5 class="p-2 fw-bolder">Get to Know Six Members of Newsweek Expert Forum</h5>
                     </div>
                     <div class="d-flex justify-content-between align-items-start p-1">
@@ -1185,40 +1204,80 @@
             </div>
         </div>
     </div>
-    <div class="subscribe-sec d-flex flex-sm-column flex-md-row">
-        <div class="subscribe w-75">
-            <h5 class="text-start">SUBSCRIBE</h5>
-            <div class="text-hide bg-gradient-light d-flex flex-wrap flex-sm-wrap flex-md-nowrap flex-sm-column flex-md-row justify-content-between align-self-center pb-5 ps-3" style="background-image: url('./assets/images/libya-commander-war-funeral.jpg');">
-                <div class=" w-25 position-relative mt-2 me-5">
-                    <img src="./assets/images/january-15-2021-cover.jpg" alt="Trump" class="w-100 " >
-                    <img src="./assets/images/cover-january-22-20210.jpg" alt="Capitol" class="position-absolute top-0 start-0 mt-3 ms-5 w-100">
-                </div>
-                <div class="ms-sm-1 ms-md-5 me-sm-1 me-md-5" style="flex:1;">
-                    <h3 class="me-5 pt-5">In-depth Stories You Don't See Elsewhere About Topics You Want to Read!</h3>
-                    <p class="me-5 px">All Access + Weekly Delivery.
-                        Choose A Membership That's Perfect for You!</p>
-                    <button class="btn btn-danger">SUBSCRIBE <i class="fa fa-chevron-right"
-                            aria-hidden="true"></i></button>
+
+    <div class="subscribe-sec  overflow-hidden d-flex flex-column mx-0 w-100">
+        <div class="subscribe bg-light  w-100 w-md-auto d-md-none">
+            <h5>SUBSCRIBE</h5>
+            <div class="subscribe-cards text-center position-relative ">
+                <img class="position-absolute" src="./assets/magazine/cover-january-29-february-05-2021.jpg" alt="">
+                <img class="position-absolute pic2 mx-5 myl-5 mt-3"
+                    src="./assets/magazine/cover-january-29-february-05-2021.jpg" alt="">
+                <div class="info position-absolute">
+                    <h3 class="fw-bolder px-4">In-depth Stories You Don't See Elsewhere About Topics You Want to
+                        Read!
+                    </h3>
+                    <p>All Access + Weekly Delivery. <br> Choose A Membership That's Perfect for You!</p>
+                    <button class="btn btn-danger rounded">SUBSCRIBE</button>
                 </div>
             </div>
+
         </div>
 
-        <div class="newsletter w-25">
-            <h5 class="text-start">NEWSLETTER</h5>
-            <div class="newsletter-body d-flex" >
-                <div class="newsletter-img"></div>
-                <div class="star-your-day">
-                    <h5>THE STARTING 5</h5>
-                    <p>See why nearly a quarter of a million subscribers begin their day with the Starting 5.</p>
-                    <input type="text" class="form-control" placeholder="Username" aria-label="Email Address">
-                    <button class="btn btn-danger">FREE SIGN UP <i class="fa fa-chevron-right"
-                            aria-hidden="true"></i></button>
+        <div class="newsletter bg-light d-flex flex-column w-100 w-md-auto d-md-none">
+            <h5>NEWSLETTER</h5>
+            <div class=" newsletter-body d-flex h-100 flex-column">
+                <div class="newsletter-img">
+                    <img src="./assets/sub/starting5-homepage.png" alt="">
                 </div>
+                <div class="star-your-day text-center">
+                    <h5 class="fw-bold">THE STARTING 5</h5>
+                    <p>See why nearly a quarter of a million subscribers begin their day with the Starting 5.</p>
+                    <div class="sign-up-div d-flex">
+                        <input type="text" class="form-control flex-grow-1 w-25" placeholder="Email Address"
+                            aria-label="Email">
+                        <button class="btn btn-danger flex-grow-1">FREE SIGN UP <i class="fa fa-chevron-right"
+                                aria-hidden="true"></i></button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="last-card-sub d-lg-flex">
+            <div class="subscribe bg-light d-none d-md-flex p-4">
+                <div class="img-b position-relative">
+                    <img class="position-absolute pic-n-1" src="./assets/magazine/cover-january-29-february-05-2021.jpg"
+                        alt="">
+                    <img class="position-absolute pic-n-2" src="./assets/magazine/cover-january-29-february-05-2021.jpg"
+                        alt="">
+                </div>
+                <div class="info-b p-3">
+                    <h3>In-depth Stories You Don't See Elsewhere About Topics You Want to Read!</h3>
+                    <p>All Access + Weekly Delivery. <br> Choose A Membership That's Perfect for You!</p>
+                    <button class="btn btn-danger rounded">SUBSCRIBE</button>
+                </div>
+            </div>
+
+            <div class="newsletter bg-light d-none d-md-flex p-3">
+                <div class="img-n col-lg-6  overflow-hidden">
+                    <img src="./assets/sub/starting5-homepage.png" alt="">
+                </div>
+                <div class="info-n d-flex col-lg-6  text-center justify-content-between flex-column p-4">
+                    <h5 class="fw-bold">THE STARTING 5</h5>
+                    <p>See why nearly a quarter of a million subscribers begin their day with the Starting 5.</p>
+                    <div class="sign-up-div d-flex flex-lg-column">
+                        <input type="text" class="form-control flex-grow-1 w-25 w-lg-auto" placeholder="Email Address"
+                            aria-label="Email">
+                        <button class="btn btn-danger flex-grow-1">FREE SIGN UP <i class="fa fa-chevron-right"
+                                aria-hidden="true"></i></button>
+                    </div>
+                </div>
+
             </div>
         </div>
     </div>
 
-    <footer class='container-fluid footer-section d-flex  flex-column'>
+
+    <footer class='container-fluid footer-section d-flex  flex-column '>
         <div class='d-flex flex-column flex-lg-row justify-content-between align-items-start border-bottom'>
 
             <div class="copy-write d-flex align-items-lg-center flex-column flex-lg-row ">

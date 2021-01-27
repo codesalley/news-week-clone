@@ -4,11 +4,6 @@ a {
   color: black;
 }
 
-html {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-}
-
 ul {
   list-style: none;
 }
@@ -159,6 +154,12 @@ ul {
   font-size: 16px;
 }
 
+.first-header {
+  background-color: #f72210;
+  padding: 0 10px;
+  height: 45px;
+}
+
 .sub-btn,
 .login-btn {
   height: 30px;
@@ -168,6 +169,66 @@ ul {
 .login-section {
   gap: 20px;
   color: rgba(255, 255, 255, 0.808);
+}
+
+.newsletter-img {
+  object-fit: scale-down;
+  overflow: hidden;
+}
+
+.subscribe-cards {
+  height: 400px;
+}
+
+.subscribe {
+  height: 40%;
+  width: 100%;
+}
+
+.subscribe-cards img {
+  width: 150px;
+  left: 15%;
+  top: 10%;
+}
+
+.info-b {
+  margin-left: 50%;
+}
+
+.pic-n-1 {
+  width: 140px;
+  left: 90px;
+  top: 40px;
+}
+
+.pic-n-2 {
+  width: 140px;
+  left: 150px;
+  top: 50px;
+}
+
+.sign-up-div {
+  height: 40px;
+}
+
+.img-bucket {
+  width: 200px;
+}
+
+.sign-up-div .btn {
+  font-size: 12px;
+}
+
+.subscribe-cards .info {
+  bottom: 0;
+}
+
+.info h3 {
+  font-size: 20px;
+}
+
+.info button::after {
+  content: " >";
 }
 
 .date-stamp {
@@ -186,20 +247,22 @@ ul {
   height: 63px;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 767px) {
   .turn-item img {
     height: 8rem;
     object-fit: cover;
   }
+
+  .subscribe-cards .info,
+  .img-bucket img {
+    position: relative;
+  }
 }
 
 @media only screen and (min-width: 992px) {
-
-  .newsletter-img {
-    width: 100%;
-    max-width: 191px;
-    background-image: url(./assets/sub/starting5-homepage.png);
-    background-size: cover;
+  .first-header {
+    height: 95px;
+    padding: 22px;
   }
 
   .header-svg svg {
@@ -208,8 +271,8 @@ ul {
   }
 
   .subscribe-sec {
-    padding: 40px 30px 10px 40px;
-    height: 60vh;
+    padding: 40px 30px 0 40px;
+    height: 70vh;
     overflow: hidden;
   }
 

@@ -62,8 +62,7 @@ ul {
 }
 
 .story-img {
-  width: 100px;
-  height: 80px;
+  height: 120px;
   margin-right: 10px;
 }
 
@@ -80,7 +79,6 @@ ul {
 .my-story h1,
 .the-debate h3,
 .more-stories h3,
-.my-turn h1,
 .feature-h3 {
   padding-top: 20px;
   font-size: 16px;

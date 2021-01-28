@@ -191,6 +191,11 @@ ul {
   height: 45px;
 }
 
+.m-img {
+  height: 320px;
+  object-fit: cover;
+}
+
 .sub-btn,
 .login-btn {
   height: 30px;

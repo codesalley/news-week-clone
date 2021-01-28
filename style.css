@@ -1,4 +1,4 @@
-body{
+body {
   background-color: #f4f5f6;
 }
 
@@ -6,10 +6,51 @@ body{
   margin: 0;
 }
 
+.news-l-h3 {
+  color: #f72210;
+  font-size: 17px;
+}
+
+.email-input input {
+  height: 40px;
+  width: 150px;
+}
+
+.email-input button {
+  height: 35px;
+}
+
+.img-stack-bucket {
+  width: 350px;
+  height: 300px;
+  margin: auto;
+}
+
+.headers-text-colors {
+  color: #f72210;
+  font-size: 16px;
+}
+
+.stack-desktop-img {
+  width: 150px;
+  left: 15%;
+  top: 10%;
+}
+
+.stack-desktop-img:last-child {
+  top: 15%;
+  left: 35%;
+}
+
 a {
   text-decoration: none;
   font-weight: normal;
   color: black;
+}
+
+.category-image {
+  width: 110px;
+  height: 126px;
 }
 
 ul {
@@ -48,6 +89,10 @@ ul {
   font: bold 14px/32px "Roboto Condensed", sans-serif;
   text-align: center;
   margin: 6px auto;
+}
+
+.magazine-card h5 {
+  font-size: 13px;
 }
 
 .debate-p {
@@ -124,12 +169,20 @@ ul {
   fill: white;
 }
 
-.middle-footer h3 {
-  font-size: 20px;
+.subscription-sectiom  {
+  background-color: #F4F5F6;
 }
 
-.last-footer-ul {
-  font-size: 16px;
+.last-footer-ul li,
+.mid-footer-ul li,
+.edition {
+  font-size: 17px;
+  color: #767473;
+}
+
+.last-footer-ul li a,
+.mid-footer-ul li a {
+  color: #767473;
 }
 
 .first-header {
@@ -149,24 +202,10 @@ ul {
   color: rgba(255, 255, 255, 0.808);
 }
 
-.newsletter-img {
-  object-fit: scale-down;
+.main-newsletter-img  {
+  object-fit: contain;
   overflow: hidden;
-}
-
-.subscribe-cards {
-  height: 400px;
-}
-
-.subscribe {
-  height: 40%;
-  width: 100%;
-}
-
-.subscribe-cards img {
-  width: 150px;
-  left: 15%;
-  top: 10%;
+  object-position:right;
 }
 
 .info-b {
@@ -185,28 +224,8 @@ ul {
   top: 50px;
 }
 
-.sign-up-div {
-  height: 40px;
-}
-
 .img-bucket {
   width: 200px;
-}
-
-.sign-up-div .btn {
-  font-size: 12px;
-}
-
-.subscribe-cards .info {
-  bottom: 0;
-}
-
-.info h3 {
-  font-size: 20px;
-}
-
-.info button::after {
-  content: " >";
 }
 
 .date-stamp {
@@ -230,11 +249,6 @@ ul {
     height: 8rem;
     object-fit: cover;
   }
-
-  .subscribe-cards .info,
-  .img-bucket img {
-    position: relative;
-  }
 }
 
 @media only screen and (min-width: 992px) {
@@ -248,10 +262,8 @@ ul {
     fill: white;
   }
 
-  .subscribe-sec {
-    padding: 40px 30px 0 40px;
-    height: 70vh;
-    overflow: hidden;
+  .newsletter-desktop {
+    padding: 40px 30px 10px 40px;
   }
 
   .news-category::before {

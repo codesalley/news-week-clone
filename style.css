@@ -169,7 +169,7 @@ ul {
   fill: white;
 }
 
-.subscription-sectiom  {
+.subscription-sectiom {
   background-color: #F4F5F6;
 }
 
@@ -186,7 +186,7 @@ ul {
 }
 
 .first-header {
-  background-color: #f72210;
+  background-color:  #F72210;
   padding: 0 10px;
   height: 45px;
 }
@@ -207,10 +207,10 @@ ul {
   color: rgba(255, 255, 255, 0.808);
 }
 
-.main-newsletter-img  {
+.main-newsletter-img {
   object-fit: contain;
   overflow: hidden;
-  object-position:right;
+  object-position: right;
 }
 
 .info-b {

@@ -79,7 +79,6 @@ ul {
 }
 
 .vs-text {
-  position: relative;
   z-index: 1;
   width: 32px;
   height: 32px;
@@ -177,7 +176,7 @@ ul {
 .mid-footer-ul li,
 .edition {
   font-size: 17px;
-  color: #767473;
+  color: #737473;
 }
 
 .last-footer-ul li a,
@@ -234,14 +233,19 @@ ul {
 }
 
 .date-stamp {
-  font-size: 13px;
+  font-size: 16px;
+  color: #737473;
+}
+
+.social-icon  i{
+  color: #737473;
 }
 
 .footer-svg svg {
   display: block;
   fill: #f72210;
   width: 236px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .side-img {
